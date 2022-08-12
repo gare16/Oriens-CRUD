@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "828029222465",
+    "firebase_url": "https://oriens-678d1-default-rtdb.firebaseio.com",
+    "project_id": "oriens-678d1",
+    "storage_bucket": "oriens-678d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828029222465:android:0b0343a6f1bb5ea41350c0",
+        "android_client_info": {
+          "package_name": "com.garee.oriens"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828029222465-k99c3m9s4c1inqjigmnu1rkmprcqvknu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm8EYRroZ_xEvKhprVG1DNRN8TuVTzWyg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828029222465-k99c3m9s4c1inqjigmnu1rkmprcqvknu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828029222465:android:fda057720ea429d21350c0",
+        "android_client_info": {
+          "package_name": "com.oriensee.oriens"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828029222465-k99c3m9s4c1inqjigmnu1rkmprcqvknu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm8EYRroZ_xEvKhprVG1DNRN8TuVTzWyg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828029222465-k99c3m9s4c1inqjigmnu1rkmprcqvknu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

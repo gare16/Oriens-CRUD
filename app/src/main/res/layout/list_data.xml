@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <data>
+                <variable
+                    name="isData"
+                    type="com.garee.oriens.databases.Database" />
+        </data>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:background="@color/primary"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="15dp">
+
+        <TextView
+            android:id="@+id/nameTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="15sp"
+            android:fontFamily="@font/rubik_regular"
+            android:text="@{isData.name}"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <TextView
+            android:id="@+id/dateTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20sp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/rubik_regular"
+            android:text="@{isData.date}"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            app:layout_constraintTop_toBottomOf="@id/nameTv"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@id/nameTv"/>
+
+        <ImageView
+            android:id="@+id/moreBtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_more"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"/>
+
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:background="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

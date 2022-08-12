@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Oriens</string>
+
+    <string name="prompt_name">Name</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_username">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_cpassword">Confirm Password</string>
+    <string name="action_sign_up">Sign Up.</string>
+    <string name="button_sign_up">Sign Up.</string>
+    <string name="action_sign_in">Sign in.</string>
+    <string name="button_sign_in">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="err_password"></string>
+
+    <string name="sign_up_heading">Create New Account.</string>
+    <string name="sign_up_already_have_account">Already have Account ?</string>
+
+
+    <string name="no_account">Don\'t Have an Account ? Register Here.</string>
+    <string name="have_account">Already Have an Account ? Login Here.</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+
+    <string name="sort">Sort by :</string>
+    <string name="sort_o1">Oldest</string>
+    <string name="sort_o2">Newest</string>
+
+
+    <string name="add_name">Name</string>
+    <string name="add_value">Jumlah</string>
+    <string name="add_rate">Rate</string>
+    <string name="add_split">Pembagian</string>
+    <string name="add_total">Total</string>
+
+    <string name="phone_optional">No Telepon ( Optional )</string>
+    <string name="age_optional">Umur ( Optional )</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
